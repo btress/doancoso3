@@ -1,0 +1,57 @@
+{
+  "Category": [
+    {
+      "id": 1,
+      "title": "Coffee"
+    },
+    {
+      "id": 2,
+      "title": "Tea"
+    },
+    {
+      "id": 3,
+      "title": "Pastry"
+    },
+    {
+      "id": 4,
+      "title": "Cold Brew"
+    }
+  ],
+  "Items": [
+    {
+      "description": "A cappuccino is an espresso-based coffee drink that originated in Italy.",
+      "extra": "Extra Milk",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=500"
+      ],
+      "price": 4.5,
+      "rating": 4.8,
+      "title": "Cappuccino"
+    },
+    {
+      "description": "Freshly steamed milk with vanilla-flavored syrup marked with espresso.",
+      "extra": "Caramel Sauce",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=500"
+      ],
+      "price": 5.0,
+      "rating": 4.9,
+      "title": "Caramel Macchiato"
+    }
+  ],
+  "Offers": [
+    {
+      "description": "Special offer: Buy 1 Get 1 Free for summer!",
+      "extra": "Buy 1 Get 1",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=500"
+      ],
+      "price": 3.5,
+      "rating": 4.5,
+      "title": "Iced Latte"
+    }
+  ]
+}
