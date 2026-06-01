@@ -10,7 +10,8 @@ data class ItemsModel(
     var price: Double = 0.0,
     var rating: Double = 0.0,
     var numberInCart: Int = 0,
-    var extra: String = ""
+    var extra: String = "",
+    var categoryId: Int = 0
 ) : Parcelable {
 
     constructor(parcel: Parcel) : this(
@@ -20,7 +21,8 @@ data class ItemsModel(
         parcel.readDouble(),
         parcel.readDouble(),
         parcel.readInt(),
-        parcel.readString() ?: ""
+        parcel.readString() ?: "",
+        parcel.readInt()
     )
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
@@ -31,6 +33,7 @@ data class ItemsModel(
         parcel.writeDouble(rating)
         parcel.writeInt(numberInCart)
         parcel.writeString(extra)
+        parcel.writeInt(categoryId)
     }
 
     override fun describeContents(): Int = 0

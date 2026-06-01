@@ -8,7 +8,10 @@ import com.example.coffeeshop.R
 import com.example.coffeeshop.databinding.ViewholderCategoryBinding
 import com.example.coffeeshop.model.CategoryModel
 
-class CategoryAdapter(val items: MutableList<CategoryModel>) :
+class CategoryAdapter(
+    val items: MutableList<CategoryModel>,
+    private val onCategoryClick: (CategoryModel) -> Unit
+) :
     RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {
 
     private lateinit var context: Context
@@ -28,8 +31,11 @@ class CategoryAdapter(val items: MutableList<CategoryModel>) :
         holder.binding.root.setOnClickListener {
             lastSelectedPosition = selectedPosition
             selectedPosition = position
-            notifyItemChanged(lastSelectedPosition)
+            if (lastSelectedPosition >= 0) {
+                notifyItemChanged(lastSelectedPosition)
+            }
             notifyItemChanged(selectedPosition)
+            onCategoryClick(item)
         }
 
         if (selectedPosition == position){

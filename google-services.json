@@ -1,74 +1,46 @@
 {
   "project_info": {
-    "project_number": "959179691960",
-    "firebase_url": "https://fir-demo-cb501-default-rtdb.firebaseio.com",
-    "project_id": "fir-demo-cb501",
-    "storage_bucket": "fir-demo-cb501.appspot.com"
+    "project_number": "426217142815",
+    "firebase_url": "https://cafeapp-c7d63-default-rtdb.firebaseio.com",
+    "project_id": "cafeapp-c7d63",
+    "storage_bucket": "cafeapp-c7d63.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:959179691960:android:0c4c86f6fcd828b27c614d",
+        "mobilesdk_app_id": "1:426217142815:android:a0c810bec81cc23d05732a",
         "android_client_info": {
-          "package_name": "com.example.coffeeshop"
+          "package_name": "com.ahmetocak.shoppingapp"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "959179691960-g1odigheh8lq39tsclvnhscv9ku9vdr1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBwgUlT3iM_pRbySrIscsCIsrPa1vf_JqA"
+          "current_key": "AIzaSyCQQeRVPtyOa4FI7WEfAd38xGCWAH1Mxrc"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "959179691960-g1odigheh8lq39tsclvnhscv9ku9vdr1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:959179691960:android:9dabe895e4168e477c614d",
+        "mobilesdk_app_id": "1:426217142815:android:8dc29c255be8fdf005732a",
         "android_client_info": {
-          "package_name": "com.example.notification"
+          "package_name": "com.example.coffeeshop"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "959179691960-7bqpc1kqh0tj22i8dvl4qrqmtmj3vnd6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.example.notification",
-            "certificate_hash": "701cf010749aefe3ca4e24f2f260973bdb55a751"
-          }
-        },
-        {
-          "client_id": "959179691960-g1odigheh8lq39tsclvnhscv9ku9vdr1.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBwgUlT3iM_pRbySrIscsCIsrPa1vf_JqA"
+          "current_key": "AIzaSyCQQeRVPtyOa4FI7WEfAd38xGCWAH1Mxrc"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "959179691960-g1odigheh8lq39tsclvnhscv9ku9vdr1.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

@@ -1,6 +1,10 @@
 {
   "Category": [
     {
+      "id": 0,
+      "title": "All"
+    },
+    {
       "id": 1,
       "title": "Coffee"
     },
@@ -15,43 +19,266 @@
     {
       "id": 4,
       "title": "Cold Brew"
+    },
+    {
+      "id": 5,
+      "title": "Chocolate"
     }
   ],
   "Items": [
     {
-      "description": "A cappuccino is an espresso-based coffee drink that originated in Italy.",
+      "categoryId": 1,
+      "description": "A classic Italian espresso drink with steamed milk and thick foam.",
       "extra": "Extra Milk",
       "numberInCart": 0,
       "picUrl": [
-        "https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=500"
+        "https://images.unsplash.com/photo-1572442388796-11668a67e53d?q=80&w=600"
       ],
       "price": 4.5,
       "rating": 4.8,
       "title": "Cappuccino"
     },
     {
-      "description": "Freshly steamed milk with vanilla-flavored syrup marked with espresso.",
+      "categoryId": 1,
+      "description": "Fresh steamed milk with vanilla syrup, caramel sauce, and espresso.",
       "extra": "Caramel Sauce",
       "numberInCart": 0,
       "picUrl": [
-        "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=500"
+        "https://images.unsplash.com/photo-1485808191679-5f86510681a2?q=80&w=600"
       ],
       "price": 5.0,
       "rating": 4.9,
       "title": "Caramel Macchiato"
+    },
+    {
+      "categoryId": 1,
+      "description": "A concentrated coffee shot with a rich crema and bold flavor.",
+      "extra": "Double Shot",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=80&w=600"
+      ],
+      "price": 3.2,
+      "rating": 4.7,
+      "title": "Espresso"
+    },
+    {
+      "categoryId": 1,
+      "description": "Smooth espresso topped with hot water for a clean, aromatic cup.",
+      "extra": "Hot Water",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=600"
+      ],
+      "price": 3.8,
+      "rating": 4.5,
+      "title": "Americano"
+    },
+    {
+      "categoryId": 1,
+      "description": "Espresso with silky steamed milk and a light layer of foam.",
+      "extra": "Oat Milk",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600"
+      ],
+      "price": 4.8,
+      "rating": 4.8,
+      "title": "Cafe Latte"
+    },
+    {
+      "categoryId": 2,
+      "description": "Fragrant green tea with a clean finish and gentle sweetness.",
+      "extra": "Honey",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=600"
+      ],
+      "price": 3.6,
+      "rating": 4.5,
+      "title": "Green Tea"
+    },
+    {
+      "categoryId": 2,
+      "description": "Creamy milk tea with chewy tapioca pearls.",
+      "extra": "Boba",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1558857563-b371033873b8?q=80&w=600"
+      ],
+      "price": 4.9,
+      "rating": 4.7,
+      "title": "Brown Sugar Milk Tea"
+    },
+    {
+      "categoryId": 2,
+      "description": "Bright lemon tea served cold with a refreshing citrus aroma.",
+      "extra": "Fresh Lemon",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1499638673689-79a0b5115d87?q=80&w=600"
+      ],
+      "price": 3.9,
+      "rating": 4.4,
+      "title": "Iced Lemon Tea"
+    },
+    {
+      "categoryId": 2,
+      "description": "Smooth matcha blended with milk for a balanced, earthy drink.",
+      "extra": "Less Sugar",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?q=80&w=600"
+      ],
+      "price": 5.2,
+      "rating": 4.8,
+      "title": "Matcha Latte"
+    },
+    {
+      "categoryId": 3,
+      "description": "Buttery croissant baked with a crisp outside and soft layers.",
+      "extra": "Butter",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=600"
+      ],
+      "price": 3.5,
+      "rating": 4.6,
+      "title": "Butter Croissant"
+    },
+    {
+      "categoryId": 3,
+      "description": "Rich chocolate muffin with a soft crumb and melted chocolate chips.",
+      "extra": "Chocolate Chip",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=600"
+      ],
+      "price": 3.8,
+      "rating": 4.5,
+      "title": "Chocolate Muffin"
+    },
+    {
+      "categoryId": 3,
+      "description": "Creamy cheesecake with a biscuit base and light berry topping.",
+      "extra": "Berry Sauce",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=600"
+      ],
+      "price": 5.5,
+      "rating": 4.9,
+      "title": "Cheesecake"
+    },
+    {
+      "categoryId": 4,
+      "description": "Slow-steeped cold brew with a smooth, low-acid finish.",
+      "extra": "Ice",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=600"
+      ],
+      "price": 4.6,
+      "rating": 4.7,
+      "title": "Classic Cold Brew"
+    },
+    {
+      "categoryId": 4,
+      "description": "Cold brew topped with vanilla sweet cream.",
+      "extra": "Vanilla Cream",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1461988091159-192b6df7054f?q=80&w=600"
+      ],
+      "price": 5.3,
+      "rating": 4.8,
+      "title": "Vanilla Sweet Cream Cold Brew"
+    },
+    {
+      "categoryId": 4,
+      "description": "Creamy nitro-style cold coffee with a smooth cascading texture.",
+      "extra": "Cream Foam",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=600"
+      ],
+      "price": 5.6,
+      "rating": 4.6,
+      "title": "Nitro Cold Brew"
+    },
+    {
+      "categoryId": 5,
+      "description": "Warm chocolate drink made with steamed milk and cocoa.",
+      "extra": "Marshmallow",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=600"
+      ],
+      "price": 4.4,
+      "rating": 4.7,
+      "title": "Hot Chocolate"
+    },
+    {
+      "categoryId": 5,
+      "description": "Dark cocoa blended with espresso and steamed milk.",
+      "extra": "Dark Cocoa",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?q=80&w=600"
+      ],
+      "price": 5.1,
+      "rating": 4.8,
+      "title": "Mocha"
+    },
+    {
+      "categoryId": 5,
+      "description": "Cold chocolate drink blended with milk and topped with cream.",
+      "extra": "Whipped Cream",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=600"
+      ],
+      "price": 5.4,
+      "rating": 4.6,
+      "title": "Chocolate Frappe"
     }
   ],
   "Offers": [
     {
-      "description": "Special offer: Buy 1 Get 1 Free for summer!",
+      "categoryId": 1,
+      "description": "Special offer for coffee lovers.",
       "extra": "Buy 1 Get 1",
       "numberInCart": 0,
       "picUrl": [
-        "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=500"
+        "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=600"
       ],
-      "price": 3.5,
+      "price": 6.5,
+      "rating": 4.7,
+      "title": "Coffee Combo"
+    },
+    {
+      "categoryId": 2,
+      "description": "Two refreshing teas at a better price.",
+      "extra": "Save 20%",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1544787219-7f47ccb76574?q=80&w=600"
+      ],
+      "price": 6.2,
       "rating": 4.5,
-      "title": "Iced Latte"
+      "title": "Tea Pair Deal"
+    },
+    {
+      "categoryId": 3,
+      "description": "A pastry and drink bundle for breakfast.",
+      "extra": "Morning Set",
+      "numberInCart": 0,
+      "picUrl": [
+        "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600"
+      ],
+      "price": 7.9,
+      "rating": 4.8,
+      "title": "Pastry Breakfast Set"
     }
   ]
 }

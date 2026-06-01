@@ -22,6 +22,13 @@ import com.example.coffeeshop.model.ItemsModel
 class PopularAdapter(val items: MutableList<ItemsModel>) :
     RecyclerView.Adapter<PopularAdapter.ViewHolder>() {
 
+    @SuppressLint("NotifyDataSetChanged")
+    fun updateItems(newItems: List<ItemsModel>) {
+        items.clear()
+        items.addAll(newItems)
+        notifyDataSetChanged()
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PopularAdapter.ViewHolder {
         val binding = ViewholderPopularBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)

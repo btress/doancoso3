@@ -10,4 +10,8 @@
     <string name="see_all">See all</string>
     <string name="available_offers">Available offers</string>
     <string name="cart">Cart</string>
+    <string name="contact">Contact</string>
+    <string name="profile">profile</string>
+    <string name="home">home</string>
+    <string name="setting">setting</string>
 </resources>

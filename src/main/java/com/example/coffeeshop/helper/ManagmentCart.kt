@@ -27,6 +27,10 @@ class ManagmentCart(val context: Context) {
         return tinyDB.getListObject("CartList") ?: arrayListOf()
     }
 
+    fun clearCart() {
+        tinyDB.putListObject("CartList", arrayListOf())
+    }
+
     fun minusItem(listItems: ArrayList<ItemsModel>, position: Int, listener: ChangeNumberItemsListener) {
         if (listItems[position].numberInCart == 1) {
             listItems.removeAt(position)

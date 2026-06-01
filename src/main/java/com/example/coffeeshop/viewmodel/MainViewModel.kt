@@ -114,7 +114,8 @@ class MainViewModel(application: Application) : AndroidViewModel(application) {
                 price = childSnapshot.child("price").asDouble(),
                 rating = childSnapshot.child("rating").asDouble(),
                 numberInCart = childSnapshot.child("numberInCart").asInt(),
-                extra = childSnapshot.child("extra").asString()
+                extra = childSnapshot.child("extra").asString(),
+                categoryId = childSnapshot.child("categoryId").asInt()
             )
         } catch (e: Exception) {
             Log.e(TAG, "Cannot parse item ${childSnapshot.key}", e)

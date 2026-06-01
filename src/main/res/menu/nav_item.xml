@@ -3,28 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:title=""
+        android:id="@+id/home"
+        android:title="@string/home"
         android:icon="@drawable/bottom_btn1"
         app:iconTint="@color/black"/>
 
     <item
-        android:title=""
+        android:id="@+id/profile"
+        android:title="@string/profile"
         android:icon="@drawable/bottom_btn2"
         app:iconTint="@color/black"/>
 
     <item
-        android:id="@+id/cart"
+        android:id="@+id/cart_placeholder"
         android:title="@string/cart"
         android:enabled="false"/>
 
     <item
-        android:title=""
-        android:icon="@drawable/bottom_btn3"
+        android:id="@+id/contact"
+        android:title="@string/contact"
+        android:icon="@drawable/bottom_btn"
         app:iconTint="@color/black"/>
 
     <item
+        android:id="@+id/settings"
+        android:title="@string/setting"
         android:icon="@drawable/bottom_btn4"
-        android:title=""
         app:iconTint="@color/black"/>
 
 </menu>
